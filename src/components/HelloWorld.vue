@@ -2,9 +2,10 @@
 <div id="app2">
   <el-table
     :data="tableData2"
-    height="500"
+    height="600"
     border
-    style="width: 100%">
+    style="width: 100%"
+    >
     <el-table-column
       prop="CID"
       label="编号"
